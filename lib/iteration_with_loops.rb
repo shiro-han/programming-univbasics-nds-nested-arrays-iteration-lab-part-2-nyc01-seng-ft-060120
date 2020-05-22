@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
     while index2 < src[index1].count do
       current_val = src[index1][index2]
       if current_val < current_min
-        current_min = val
+        current_min = current_val
       end
       index2 += 1
     end
